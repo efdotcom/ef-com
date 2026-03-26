@@ -2,7 +2,7 @@ import Navigation from "@/components/Navigation";
 import JustifiedGallery from "@/components/JustifiedGallery";
 
 const galleryItems = [
-  { id: "home-1", src: "/780_0701.jpg", aspectRatio: 2.3, alt: "Image 1" },
+  { id: "home-1", src: "/20260317-St_Patricks_Parade_Cavan_2026-0078-5k.jpg", aspectRatio: 2.3, alt: "Image 1" },
   { id: "home-2", src: "/VAL_6083.jpg", aspectRatio: 2.3, alt: "Image 2" },
   { id: "home-3", src: "/780_0840.jpg", aspectRatio: 2.3, alt: "Image 3" },
   { id: "home-4", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Image 4" },
