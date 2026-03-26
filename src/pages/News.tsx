@@ -9,7 +9,7 @@ const galleryItems = [
   { id: "news-2", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 2" },
   { id: "news-3", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 3" },
   { id: "news-4", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 4" },
-  { id: "news-5", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 5" },
+  { id: "news-5", src: "/20250928-Z8A_1332-W.jpg", aspectRatio: 2.3, alt: "News Image 5" },
   { id: "news-6", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 6" },
   { id: "news-7", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 7" },
   { id: "news-8", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 8" },
