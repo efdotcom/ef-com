@@ -10,6 +10,7 @@ const galleryItems = [
   { id: "home-6", src: "/20251031-Halloween-1041-5k.jpg", aspectRatio: 2.3, alt: "Image 6" },
   { id: "home-7", src: "/20251031-Halloween-0503-5k.jpg", aspectRatio: 2.3, alt: "Image 7" },
   { id: "home-8", src: "/20251026-Dublin_Marathon_2025-4177-5k.jpg", aspectRatio: 2.3, alt: "Image 8" },
+  { id: "home-9", src: "/20250925-Obama_Freedom_of_the_City-0371-W.jpg", aspectRatio: 2.3, alt: "Image 9" },
 ];
 
 const Index = () => {
