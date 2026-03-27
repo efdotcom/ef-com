@@ -5,8 +5,8 @@ import JustifiedGallery from "@/components/JustifiedGallery";
 //const sportsCategories = ["Football", "Basketball", "Tennis", "Athletics", "Swimming"];
 
 const galleryItems = [
-  { id: "sports-1", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Sports Image 1" },
-  { id: "sports-2", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Sports Image 2" },
+  { id: "sports-1", src: "/20251026-Dublin_Marathon_2025-4859-5k.jpg", aspectRatio: 2.3, alt: "Sports Image 1" },
+  { id: "sports-2", src: "/20250928-Z8A_1405-W.jpg", aspectRatio: 2.3, alt: "Sports Image 2" },
   { id: "sports-3", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Sports Image 3" },
   { id: "sports-4", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Sports Image 4" },
   { id: "sports-5", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Sports Image 5" },
