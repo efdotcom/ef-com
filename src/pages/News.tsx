@@ -12,6 +12,7 @@ const galleryItems = [
   { id: "news-5", src: "/20250928-Z8A_1332-W.jpg", aspectRatio: 2.3, alt: "News Image 5" },
   { id: "news-6", src: "/20251025-Z8A_1979-5k.jpg", aspectRatio: 2.3, alt: "News Image 6" },
   { id: "news-7", src: "/20250925-Obama_Freedom_of_the_City-0746-W.jpg", aspectRatio: 2.3, alt: "News Image 7" },
+  { id: "news-8", src: "/20250824-Dublin_City_Fleadh-1348-W.jpg", aspectRatio: 2.3, alt: "News Image 8" },
 ];
 
 const News = () => {
