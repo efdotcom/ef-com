@@ -6,7 +6,7 @@ import JustifiedGallery from "@/components/JustifiedGallery";
 
 const galleryItems = [
   { id: "news-1", src: "/20251203-Taxi_Uber_Protest-0403-5k.jpg", aspectRatio: 2.3, alt: "News Image 1" },
-  { id: "news-2", src: "/20251202-Zelensky_Visit-1520-5k.jpeg", aspectRatio: 2.3, alt: "News Image 2" },
+  { id: "news-2", src: "/20251202-Zelensky_Visit-1520-5k.jpg", aspectRatio: 2.3, alt: "News Image 2" },
   { id: "news-3", src: "/20251115-Storm_Claudia-0281-5k.jpg", aspectRatio: 2.3, alt: "News Image 3" },
   { id: "news-4", src: "/20251031-Halloween-0043-5k.jpg", aspectRatio: 2.3, alt: "News Image 4" },
   { id: "news-5", src: "/20250928-Z8A_1332-W.jpg", aspectRatio: 2.3, alt: "News Image 5" },
