@@ -5,16 +5,8 @@ import JustifiedGallery from "@/components/JustifiedGallery";
 //const documentaryCategories = ["Social Issues", "Environment", "History", "People", "Places"];
 
 const galleryItems = [
-  { id: "doc-1", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Documentary Image 1" },
-  { id: "doc-2", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Documentary Image 2" },
-  { id: "doc-3", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Documentary Image 3" },
-  { id: "doc-4", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Documentary Image 4" },
-  { id: "doc-5", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Documentary Image 5" },
-  { id: "doc-6", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Documentary Image 6" },
-  { id: "doc-7", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Documentary Image 7" },
-  { id: "doc-8", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Documentary Image 8" },
-  { id: "doc-9", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Documentary Image 9" },
-  { id: "doc-10", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "Documentary Image 10" },
+  { id: "doc-1", src: "/20260317-St_Patricks_Parade_Cavan_2026-0093-5k.jpg", aspectRatio: 2.3, alt: "Documentary Image 1" },
+  { id: "doc-2", src: "/20251222-Dublin_Christmas-0594-5k.jpg", aspectRatio: 2.3, alt: "Documentary Image 2" },
 ];
 
 const Documentary = () => {
