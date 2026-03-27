@@ -7,6 +7,7 @@ import JustifiedGallery from "@/components/JustifiedGallery";
 const galleryItems = [
   { id: "doc-1", src: "/20260317-St_Patricks_Parade_Cavan_2026-0093-5k.jpg", aspectRatio: 2.3, alt: "Documentary Image 1" },
   { id: "doc-2", src: "/20251222-Dublin_Christmas-0594-5k.jpg", aspectRatio: 2.3, alt: "Documentary Image 2" },
+  { id: "doc-3", src: "/20250921-Zwartkops_Time_Trials-0487-W.jpg", aspectRatio: 2.3, alt: "Documentary Image 3" },
 ];
 
 const Documentary = () => {
