@@ -10,11 +10,7 @@ const galleryItems = [
   { id: "news-3", src: "/20251115-Storm_Claudia-0281-5k.jpg", aspectRatio: 2.3, alt: "News Image 3" },
   { id: "news-4", src: "/20251031-Halloween-0043-5k.jpg", aspectRatio: 2.3, alt: "News Image 4" },
   { id: "news-5", src: "/20250928-Z8A_1332-W.jpg", aspectRatio: 2.3, alt: "News Image 5" },
-  { id: "news-6", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 6" },
-  { id: "news-7", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 7" },
-  { id: "news-8", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 8" },
-  { id: "news-9", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 9" },
-  { id: "news-10", src: "/public/wawa.jpeg", aspectRatio: 2.3, alt: "News Image 10" },
+  { id: "news-6", src: "/20251025-Z8A_1979-5k.jpg", aspectRatio: 2.3, alt: "News Image 6" },
 ];
 
 const News = () => {
