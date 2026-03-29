@@ -32,6 +32,10 @@ const JustifiedGallery = ({ items, rowHeight = 300 }: JustifiedGalleryProps) => 
         items.map(
           (item) =>
             new Promise<GalleryItem>((resolve) => {
+              if (item.aspectRatio) {
+                resolve(item);
+                return;
+              }
               const img = new Image();
               img.src = item.src;
 
@@ -121,11 +125,23 @@ return (
           className={styles.mobileItem}
           style={{
             paddingTop: `${100 / (item.aspectRatio ?? 1)}%`,
-            backgroundImage: `url(${item.src})`,
-           // opacity: hoveredId && hoveredId !== item.id ? 1 : 0.8,
           }}
           aria-label={item.alt}
-        />
+        >
+          <img
+            src={item.src}
+            alt={item.alt}
+            loading="lazy"
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              objectFit: 'contain',
+            }}
+          />
+        </div>
       ))
     ) : (
       /* -----------------------------
@@ -140,13 +156,22 @@ return (
               style={{
                 height: `${rowHeight}px`,
                 width: `${rowHeight * (item.aspectRatio ?? 1)}px`,
-                backgroundImage: `url(${item.src})`,
-              //  opacity: hoveredId && hoveredId !== item.id ? 1 : 0.8,
               }}
               onMouseEnter={() => setHoveredId(item.id)}
               onMouseLeave={() => setHoveredId(null)}
               aria-label={item.alt}
-            />
+            >
+              <img
+                src={item.src}
+                alt={item.alt}
+                loading="lazy"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                }}
+              />
+            </div>
           ))}
         </div>
       ))
