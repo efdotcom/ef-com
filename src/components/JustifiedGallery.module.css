@@ -11,8 +11,9 @@
 
 .item {
   flex: 0 0 auto;
-  position: relative;
-  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* -----------------------------
@@ -22,4 +23,9 @@
   width: 100%;
   position: relative;
   margin-bottom: 12px;
+
+  /* aspect ratio box */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
